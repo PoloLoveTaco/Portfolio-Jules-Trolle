@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navbar() {
     return (
         <nav>
@@ -5,12 +7,12 @@ export default function Navbar() {
             <a href="https://www.youtube.com/watch?v=2yJgwwDcgV8" className="font-mono font-bold text-2xl">
               Jules Trollé
             </a>
-            <div className="hidden w-full md:block md:w-auto">
+            <div className="w-full md:w-auto"> {/* change after to create a burger menu for mobile device */}
               <ul className="font-mono font-bold flex flex-row space-x-4">
-                <li><a href="/">Home</a></li>
-                <li><a href="/About">About</a></li>
-                <li><a href="/Tools">Tools</a></li>
-                <li><a href="/Projects">Project</a></li>
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/About">About</Link></li>
+                <li><Link href="/Tools">Tools</Link></li>
+                <li><Link href="/Projects">Project</Link></li>
               </ul>
             </div>
           </div>

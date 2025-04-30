@@ -1,13 +1,7 @@
-import Image from "next/image";
-
-import Navbar from "@/components/navbar";
+import UnderContruction from "@/components/under-contruction";
 
 export default function Tools() {
   return (
-    <main>
-      <header>
-        <Navbar />
-      </header>
-    </main>
+    <UnderContruction />
   );
 }
