@@ -1,5 +1,6 @@
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import BackgroundCircle from "@/components/background-circle";
 
 export const metadata = {
   title: "Mon Portfolio",
@@ -16,7 +17,10 @@ export default function RootLayout({
       <body>
         <main className="flex flex-col min-h-screen w-full">
           <Navbar />
-          {children}
+          <BackgroundCircle />
+          <div className="flex-1 flex items-center justify-center">
+            {children}
+          </div>
         </main>
       </body>
     </html>
