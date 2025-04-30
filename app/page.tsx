@@ -28,7 +28,9 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <img src="/project-logo/PoloFy.jpg" alt="me" className="rounded-md" />
+            <a href="https://pololovetaco.github.io/">
+              <img src="/project-logo/PoloFy.jpg" alt="me" className="rounded-md" />
+            </a>
           </div>
         </div>
       </div>
