@@ -15,12 +15,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body>
-        <main className="flex flex-col min-h-screen w-full">
+        <main className="min-h-screen flex flex-col items-center">
           <Navbar />
           <BackgroundCircle />
-          <div className="flex-1 flex items-center justify-center">
-            {children}
-          </div>
+          {children}
         </main>
       </body>
     </html>

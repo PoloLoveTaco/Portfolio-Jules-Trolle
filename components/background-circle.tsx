@@ -1,5 +1,4 @@
 "use client";
-
 import { useEffect, useState } from "react";
 
 export default function BackgroundCircle() {
@@ -23,7 +22,7 @@ export default function BackgroundCircle() {
   return (
     <div className="fixed inset-0 -z-10 flex items-center justify-center overflow-hidden">
       <div
-        className={`rounded-full w-[600px] h-[600px] transition-colors duration-1000 blur-xl opacity-50 ${colors[colorIndex]}`}
+        className={`rounded-full w-[80vw] h-[80vw] max-w-[600px] max-h-[600px] transition-colors duration-1000 blur-3xl opacity-50 ${colors[colorIndex]}`}
       />
     </div>
   );

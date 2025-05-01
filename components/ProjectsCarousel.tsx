@@ -28,7 +28,7 @@ const projects = [
 
 export default function ProjectsCarousel() {
   return (
-    <Swiper navigation={true} modules={[Navigation]} className="mySwiper bg-zinc-900 rounded-md w-2/3 h-190">
+    <Swiper navigation={true} modules={[Navigation]} className="mySwiper border-4 border-white rounded-md w-2/3 h-190">
         {projects.map(p => (
         <SwiperSlide key={p.name}>
           <ProjectPanel {...p} />
