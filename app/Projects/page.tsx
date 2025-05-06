@@ -1,7 +1,7 @@
-import ProjectsCarousel from "@/components/ProjectsCarousel";
+import ProjectsList from "@/components/ProjectsList";
 
 export default function Projects() {
   return (
-    <ProjectsCarousel />
+    <ProjectsList />
   );
 }
