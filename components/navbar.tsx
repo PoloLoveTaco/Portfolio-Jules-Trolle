@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
     return (
-        <nav className="w-full z-50 sm:w-[70%] rounded-xl mt-3 mx-auto">
+        <nav className="w-full z-50 rounded-xl mt-3 mx-auto">
           <div className="flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="https://www.youtube.com/watch?v=2yJgwwDcgV8" className="font-mono font-bold text-2xl">
               Jules Trollé
