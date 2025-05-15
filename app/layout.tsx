@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import BackgroundCircle from "@/components/background-circle";
 
+
 export const metadata = {
   title: "Mon Portfolio",
   description: "Portfolio de Jules",
