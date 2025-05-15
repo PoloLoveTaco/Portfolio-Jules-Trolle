@@ -11,7 +11,7 @@ export default function Navbar() {
               <ul className="font-mono font-bold flex flex-row space-x-4">
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/About">About</Link></li>
-                <li><Link href="/Tools">Tools</Link></li>
+                <li><Link href="/Skills">Skills</Link></li>
                 <li><Link href="/Projects">Projects</Link></li>
               </ul>
             </div>
