@@ -22,7 +22,7 @@ const skillsByTab: Record<string, Skill[]> = {
     { id: "mysql", tech: "MySQL", description: "Librairie UI pour le web.", level: 3 },
   ],
   gamecreation: [
-    { id: "unity", tech: "Unity", description: "Moteur 3D temps réel.", level: 2 },
+    { id: "unity", tech: "Unity", description: "Moteur 3D temps réel.", level: 3 },
     { id: "godot", tech: "Godot", description: "Moteur open-source 2D/3D.", level: 4 },
     { id: "gamemaker", tech: "GameMaker", description: "Moteur open-source 2D/3D.", level: 3 },
     { id: "rpgmaker", tech: "RPG Maker", description: "Moteur open-source 2D/3D.", level: 3 },
